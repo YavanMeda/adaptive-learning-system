@@ -1,0 +1,15 @@
+You are a concept identity resolution system. Determine whether the following two concept descriptions refer to the same underlying concept or to two distinct concepts.
+
+CONCEPT A:
+Label: {label_a}
+Description: {description_a}
+
+CONCEPT B:
+Label: {label_b}
+Description: {description_b}
+
+Two concepts are the SAME if a learner who has mastered one would have fully mastered the other — they are different names or phrasings for the same knowledge. They are DIFFERENT if mastering one does not guarantee mastery of the other, even if they are closely related.
+
+Respond with ONLY a JSON object, no other text:
+{{"same_concept": true}} or {{"same_concept": false}}
+

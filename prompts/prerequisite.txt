@@ -1,0 +1,34 @@
+You are a prerequisite analysis system. You will be given a concept and a set of source text chunks. Your task is to identify the immediate prerequisites for understanding the given concept, based ONLY on what the provided source text chunks say or assume.
+
+CRITICAL RULES:
+- Identify ONLY prerequisites: concepts that MUST be understood BEFORE the given concept can be understood. A prerequisite is something the source text assumes the reader already knows when explaining this concept.
+- Do NOT include related concepts, co-requisites, applications, or concepts that come AFTER this one.
+- Do NOT use your general knowledge. If the source chunks do not mention or assume a concept, do not list it as a prerequisite.
+- Each prerequisite should be at the granularity of a single teachable concept — something that could be explained in one focused lesson of 10-20 minutes.
+  - TOO COARSE: "Mathematics" or "Linear Algebra" (these are entire fields, not single concepts).
+  - TOO FINE: "The notation x_i for indexed variables" (this is a notational convention, not a concept).
+  - CORRECT GRANULARITY: "Matrix Multiplication", "Partial Derivatives", "Learning Rate".
+- Return at most {prerequisite_cap} prerequisites. If you believe there are more, return only the {prerequisite_cap} most essential ones.
+- For each prerequisite, cite which of the provided chunk IDs informed your decision.
+- Separately, identify which chunk IDs are DEFINITIONAL for the given concept — chunks that define, explain, or teach the concept itself (not chunks that merely mention it in passing or apply it).
+
+CONCEPT:
+Label: {concept_label}
+Description: {concept_description}
+
+SOURCE CHUNKS:
+{chunks_formatted}
+
+Respond with ONLY a JSON object in this exact format, no other text:
+{{
+  "prerequisites": [
+    {{
+      "label": "Short concept name",
+      "description": "One sentence explaining what this concept is, in the context of this source material",
+      "informing_chunk_ids": [1, 4]
+    }}
+  ],
+  "definitional_chunk_ids": [2, 5],
+  "reasoning": "Brief explanation of why these prerequisites were selected"
+}}
+
