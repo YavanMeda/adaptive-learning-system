@@ -213,7 +213,7 @@ def retrieve_top_k_chunks(embedding, k):
     """
     with get_connection() as conn:
         with conn.cursor() as cur:
-            cur.execute(sql, (embedding, k))
+            cur.execute(sql, (embedding, embedding, k))
             return list(cur.fetchall())
 
 
@@ -344,4 +344,3 @@ def get_all_expansion_logs():
         with conn.cursor() as cur:
             cur.execute("SELECT * FROM expansion_log ORDER BY created_at, id")
             return list(cur.fetchall())
-

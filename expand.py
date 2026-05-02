@@ -51,6 +51,11 @@ def format_chunks_for_prompt(chunks):
     return "\n\n".join(blocks)
 
 
+def _extract_prereq_label(prereq):
+    """Support legacy ('label') and v2 ('canonical_label') prompt schemas."""
+    return (prereq.get("label") or prereq.get("canonical_label") or "").strip()
+
+
 def run_expansion(target_label, target_description):
     target_embedding = embed_text(f"{target_label}: {target_description}")
     target_id = insert_node(
@@ -64,7 +69,7 @@ def run_expansion(target_label, target_description):
     frontier = [target_id]
     visited = set()
     total_llm_calls = 0
-    prerequisite_template = load_prompt_template("prompts/prerequisite.txt")
+    prerequisite_template = load_prompt_template("prompts/prerequisite_v2.txt")
 
     while frontier:
         current_id = frontier.pop()
@@ -122,7 +127,7 @@ def run_expansion(target_label, target_description):
             insert_node_chunk(current_id, chunk_id, "definitional")
 
         for prereq in prerequisites:
-            prereq_label = prereq.get("label", "").strip()
+            prereq_label = _extract_prereq_label(prereq)
             prereq_description = prereq.get("description", "").strip()
             if not prereq_label or not prereq_description:
                 continue
@@ -262,4 +267,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

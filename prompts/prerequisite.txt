@@ -31,4 +31,3 @@ Respond with ONLY a JSON object in this exact format, no other text:
   "definitional_chunk_ids": [2, 5],
   "reasoning": "Brief explanation of why these prerequisites were selected"
 }}
-

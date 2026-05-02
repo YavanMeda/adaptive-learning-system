@@ -3,7 +3,6 @@ services:
     image: python:3.11-bullseye
     volumes:
       - ..:/workspace
-      - vscode-server:/root/.vscode-server
     working_dir: /workspace
     command: sleep infinity
     env_file:

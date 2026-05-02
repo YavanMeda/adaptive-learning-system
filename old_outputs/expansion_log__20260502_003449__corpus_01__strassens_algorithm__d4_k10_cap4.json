@@ -1,0 +1,707 @@
+[
+  {
+    "id": 1,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer for matrix multiplication",
+      "nearest_similarity": 0.7252160645324948
+    },
+    "created_at": "2026-05-02 00:29:20.096630"
+  },
+  {
+    "id": 2,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix partitioning into four n/2 \u00d7 n/2 submatrices",
+      "nearest_similarity": 0.5666338255415617
+    },
+    "created_at": "2026-05-02 00:29:20.585314"
+  },
+  {
+    "id": 3,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence for running time of divide-and-conquer algorithms",
+      "nearest_similarity": 0.45559283527148975
+    },
+    "created_at": "2026-05-02 00:29:21.096159"
+  },
+  {
+    "id": 4,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "The classical and recursive n^3-time matrix multiplication baseline",
+      "nearest_similarity": 0.6188250257010898
+    },
+    "created_at": "2026-05-02 00:29:21.695090"
+  },
+  {
+    "id": 5,
+    "node_id": 5,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer matrix multiplication by partitioning into submatrices",
+      "nearest_similarity": 0.777749013961201
+    },
+    "created_at": "2026-05-02 00:29:27.704258"
+  },
+  {
+    "id": 6,
+    "node_id": 5,
+    "event_type": "new_node",
+    "detail": {
+      "label": "The MATRIX-MULTIPLY running time is \u0398(n^3)",
+      "nearest_similarity": 0.7110327616680863
+    },
+    "created_at": "2026-05-02 00:29:28.168155"
+  },
+  {
+    "id": 7,
+    "node_id": 5,
+    "event_type": "new_node",
+    "detail": {
+      "label": "MATRIX-MULTIPLY-RECURSIVE recurrence T(n) = 8T(n/2) + \u0398(1) solves to \u0398(n^3)",
+      "nearest_similarity": 0.7516051030898981
+    },
+    "created_at": "2026-05-02 00:29:28.681526"
+  },
+  {
+    "id": 8,
+    "node_id": 8,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer running-time recurrence T(n)=aT(n/b)+f(n)",
+      "nearest_similarity": 0.7368713428716948
+    },
+    "created_at": "2026-05-02 00:29:33.784695"
+  },
+  {
+    "id": 9,
+    "node_id": 8,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Master method for solving divide-and-conquer recurrences",
+      "nearest_similarity": 0.7832443230404761
+    },
+    "created_at": "2026-05-02 00:29:34.082517"
+  },
+  {
+    "id": 10,
+    "node_id": 8,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence solution classification using \u0398 notation",
+      "nearest_similarity": 0.5530277617176893
+    },
+    "created_at": "2026-05-02 00:29:34.451244"
+  },
+  {
+    "id": 11,
+    "node_id": 11,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Asymptotic notation \u0398, O, and \u03a9",
+      "nearest_similarity": 0.7048861135656661
+    },
+    "created_at": "2026-05-02 00:29:39.983904"
+  },
+  {
+    "id": 12,
+    "node_id": 11,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence solution as asymptotic bound",
+      "nearest_similarity": 0.7313324063117554
+    },
+    "created_at": "2026-05-02 00:29:40.302654"
+  },
+  {
+    "id": 13,
+    "node_id": 13,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:29:40.387547"
+  },
+  {
+    "id": 14,
+    "node_id": 12,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:29:40.424015"
+  },
+  {
+    "id": 15,
+    "node_id": 10,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9435646439268904,
+      "matched_label": "Divide-and-conquer running-time recurrence T(n)=aT(n/b)+f(n)",
+      "candidate_label": "Divide-and-conquer recurrence form T(n)=aT(n/b)+f(n)"
+    },
+    "created_at": "2026-05-02 00:29:44.728138"
+  },
+  {
+    "id": 16,
+    "node_id": 10,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Driving function f(n) in the master recurrence",
+      "nearest_similarity": 0.5849791959086813
+    },
+    "created_at": "2026-05-02 00:29:45.013915"
+  },
+  {
+    "id": 17,
+    "node_id": 10,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Watershed function n^{log_b a}",
+      "nearest_similarity": 0.44696161346919716
+    },
+    "created_at": "2026-05-02 00:29:45.326082"
+  },
+  {
+    "id": 18,
+    "node_id": 15,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:29:45.411240"
+  },
+  {
+    "id": 19,
+    "node_id": 14,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:29:45.446993"
+  },
+  {
+    "id": 20,
+    "node_id": 9,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Algorithmic recurrences",
+      "nearest_similarity": 0.5796191737150985
+    },
+    "created_at": "2026-05-02 00:29:49.884475"
+  },
+  {
+    "id": 21,
+    "node_id": 9,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8351938382169731,
+      "llm_decision": "same",
+      "matched_label": "Divide-and-conquer running-time recurrence T(n)=aT(n/b)+f(n)",
+      "candidate_label": "Master recurrence form T(n)=aT(n/b)+f(n)"
+    },
+    "created_at": "2026-05-02 00:29:52.106707"
+  },
+  {
+    "id": 22,
+    "node_id": 9,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 9,
+      "from": 9
+    },
+    "created_at": "2026-05-02 00:29:52.137634"
+  },
+  {
+    "id": 23,
+    "node_id": 9,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Driving function f(n)",
+      "nearest_similarity": 0.8097212911210381
+    },
+    "created_at": "2026-05-02 00:29:52.409668"
+  },
+  {
+    "id": 24,
+    "node_id": 17,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:29:52.483655"
+  },
+  {
+    "id": 25,
+    "node_id": 16,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:29:52.524427"
+  },
+  {
+    "id": 26,
+    "node_id": 7,
+    "event_type": "new_node",
+    "detail": {
+      "label": "matrix multiplication entry formula c_ij = sum_{k=1}^n a_ik b_kj",
+      "nearest_similarity": 0.5569302422001879
+    },
+    "created_at": "2026-05-02 00:29:56.440885"
+  },
+  {
+    "id": 27,
+    "node_id": 7,
+    "event_type": "new_node",
+    "detail": {
+      "label": "asymptotic running time of a triply nested for-loop",
+      "nearest_similarity": 0.7656381092411348
+    },
+    "created_at": "2026-05-02 00:29:56.736276"
+  },
+  {
+    "id": 28,
+    "node_id": 19,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8896202648600035,
+      "llm_decision": "same",
+      "matched_label": "matrix multiplication entry formula c_ij = sum_{k=1}^n a_ik b_kj",
+      "candidate_label": "Matrix multiplication entry formula"
+    },
+    "created_at": "2026-05-02 00:30:03.453254"
+  },
+  {
+    "id": 29,
+    "node_id": 19,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8350660730779488,
+      "llm_decision": "same",
+      "matched_label": "asymptotic running time of a triply nested for-loop",
+      "candidate_label": "Traces for-loop iterations count and constant-time line execution"
+    },
+    "created_at": "2026-05-02 00:30:05.804352"
+  },
+  {
+    "id": 30,
+    "node_id": 19,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 19,
+      "from": 19
+    },
+    "created_at": "2026-05-02 00:30:05.830584"
+  },
+  {
+    "id": 31,
+    "node_id": 18,
+    "event_type": "new_node",
+    "detail": {
+      "label": "matrix product of two square matrices A\u00b7B",
+      "nearest_similarity": 0.6761830081962795
+    },
+    "created_at": "2026-05-02 00:30:10.993539"
+  },
+  {
+    "id": 32,
+    "node_id": 18,
+    "event_type": "new_node",
+    "detail": {
+      "label": "matrix entry notation a_ik and b_kj",
+      "nearest_similarity": 0.7278719902607071
+    },
+    "created_at": "2026-05-02 00:30:11.284238"
+  },
+  {
+    "id": 33,
+    "node_id": 21,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:30:11.345667"
+  },
+  {
+    "id": 34,
+    "node_id": 20,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:30:11.378838"
+  },
+  {
+    "id": 35,
+    "node_id": 6,
+    "event_type": "dedup_llm_split",
+    "detail": {
+      "similarity": 0.8337658740473498,
+      "llm_decision": "different",
+      "matched_label": "Divide-and-conquer matrix multiplication by partitioning into submatrices",
+      "candidate_label": "Divide-and-conquer matrix multiplication"
+    },
+    "created_at": "2026-05-02 00:30:19.336466"
+  },
+  {
+    "id": 36,
+    "node_id": 6,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer matrix multiplication",
+      "nearest_similarity": 0.8337658740473498
+    },
+    "created_at": "2026-05-02 00:30:19.365414"
+  },
+  {
+    "id": 37,
+    "node_id": 6,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9564178412757475,
+      "matched_label": "Matrix partitioning into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Matrix partitioning into four n/2 by n/2 submatrices"
+    },
+    "created_at": "2026-05-02 00:30:19.937452"
+  },
+  {
+    "id": 38,
+    "node_id": 6,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Index calculations for specifying a submatrix",
+      "nearest_similarity": 0.602914951127987
+    },
+    "created_at": "2026-05-02 00:30:20.280837"
+  },
+  {
+    "id": 39,
+    "node_id": 23,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9494660509846063,
+      "matched_label": "Matrix partitioning into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Matrix partitioning into four submatrices"
+    },
+    "created_at": "2026-05-02 00:30:24.720778"
+  },
+  {
+    "id": 40,
+    "node_id": 23,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8964423853936013,
+      "llm_decision": "same",
+      "matched_label": "Index calculations for specifying a submatrix",
+      "candidate_label": "Index calculations specify a submatrix by location"
+    },
+    "created_at": "2026-05-02 00:30:26.752478"
+  },
+  {
+    "id": 41,
+    "node_id": 23,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 23,
+      "from": 23
+    },
+    "created_at": "2026-05-02 00:30:26.780010"
+  },
+  {
+    "id": 42,
+    "node_id": 22,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.934257649054955,
+      "matched_label": "matrix multiplication entry formula c_ij = sum_{k=1}^n a_ik b_kj",
+      "candidate_label": "Matrix multiplication entry formula"
+    },
+    "created_at": "2026-05-02 00:30:31.309507"
+  },
+  {
+    "id": 43,
+    "node_id": 22,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer recurrence for running time",
+      "nearest_similarity": 0.7361300615994433
+    },
+    "created_at": "2026-05-02 00:30:31.668896"
+  },
+  {
+    "id": 44,
+    "node_id": 22,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8223525716635318,
+      "llm_decision": "same",
+      "matched_label": "Matrix partitioning into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Partitioning an n\u00d7n matrix into four n/2\u00d7n/2 submatrices"
+    },
+    "created_at": "2026-05-02 00:30:34.268176"
+  },
+  {
+    "id": 45,
+    "node_id": 24,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:30:34.349151"
+  },
+  {
+    "id": 46,
+    "node_id": 4,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Algorithmic recurrence for divide-and-conquer running times",
+      "nearest_similarity": 0.7782002183999883
+    },
+    "created_at": "2026-05-02 00:30:39.368307"
+  },
+  {
+    "id": 47,
+    "node_id": 4,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer running-time recurrences",
+      "nearest_similarity": 0.7792402010435825
+    },
+    "created_at": "2026-05-02 00:30:39.687393"
+  },
+  {
+    "id": 48,
+    "node_id": 4,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8718649018322049,
+      "llm_decision": "same",
+      "matched_label": "Master method for solving divide-and-conquer recurrences",
+      "candidate_label": "Master method for solving recurrences of the form T(n)=aT(n/b)+f(n)"
+    },
+    "created_at": "2026-05-02 00:30:45.031378"
+  },
+  {
+    "id": 49,
+    "node_id": 26,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence definition (recursive case and base case)",
+      "nearest_similarity": 0.6080483990086734
+    },
+    "created_at": "2026-05-02 00:30:49.686300"
+  },
+  {
+    "id": 50,
+    "node_id": 26,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9006069609161961,
+      "llm_decision": "same",
+      "matched_label": "Algorithmic recurrences",
+      "candidate_label": "Algorithmic recurrence"
+    },
+    "created_at": "2026-05-02 00:30:51.548763"
+  },
+  {
+    "id": 51,
+    "node_id": 26,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer running time characterization",
+      "nearest_similarity": 0.7760378908215658
+    },
+    "created_at": "2026-05-02 00:30:51.801666"
+  },
+  {
+    "id": 52,
+    "node_id": 28,
+    "event_type": "dedup_llm_split",
+    "detail": {
+      "similarity": 0.8867082569425356,
+      "llm_decision": "different",
+      "matched_label": "Algorithmic recurrences",
+      "candidate_label": "Algorithmic recurrence"
+    },
+    "created_at": "2026-05-02 00:30:57.376125"
+  },
+  {
+    "id": 53,
+    "node_id": 28,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Algorithmic recurrence",
+      "nearest_similarity": 0.8867082569425356
+    },
+    "created_at": "2026-05-02 00:30:57.404446"
+  },
+  {
+    "id": 54,
+    "node_id": 28,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8580357443550984,
+      "llm_decision": "same",
+      "matched_label": "Divide-and-conquer running-time recurrences",
+      "candidate_label": "Divide-and-conquer running time recurrence form T(n)"
+    },
+    "created_at": "2026-05-02 00:30:59.755361"
+  },
+  {
+    "id": 55,
+    "node_id": 29,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:30:59.825118"
+  },
+  {
+    "id": 56,
+    "node_id": 27,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.858221040170694,
+      "llm_decision": "same",
+      "matched_label": "Recurrence definition (recursive case and base case)",
+      "candidate_label": "Recurrence definition (equation/inequality with integer or real input cases)"
+    },
+    "created_at": "2026-05-02 00:31:05.594213"
+  },
+  {
+    "id": 57,
+    "node_id": 27,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 27,
+      "from": 27
+    },
+    "created_at": "2026-05-02 00:31:05.617957"
+  },
+  {
+    "id": 58,
+    "node_id": 27,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recursive case vs base case",
+      "nearest_similarity": 0.7756285918422108
+    },
+    "created_at": "2026-05-02 00:31:05.937198"
+  },
+  {
+    "id": 59,
+    "node_id": 30,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 4
+    },
+    "created_at": "2026-05-02 00:31:06.001118"
+  },
+  {
+    "id": 60,
+    "node_id": 25,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9273056502671739,
+      "matched_label": "Algorithmic recurrence for divide-and-conquer running times",
+      "candidate_label": "Algorithmic recurrences for divide-and-conquer running times"
+    },
+    "created_at": "2026-05-02 00:31:09.105686"
+  },
+  {
+    "id": 61,
+    "node_id": 25,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 25,
+      "from": 25
+    },
+    "created_at": "2026-05-02 00:31:09.127421"
+  },
+  {
+    "id": 62,
+    "node_id": 3,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.844967413984544,
+      "llm_decision": "same",
+      "matched_label": "Matrix partitioning into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Divide-and-conquer matrix multiplication (partition into four submatrices)"
+    },
+    "created_at": "2026-05-02 00:31:16.718027"
+  },
+  {
+    "id": 63,
+    "node_id": 3,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 3,
+      "from": 3
+    },
+    "created_at": "2026-05-02 00:31:16.741478"
+  },
+  {
+    "id": 64,
+    "node_id": 3,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9531413235142232,
+      "matched_label": "Index calculations for specifying a submatrix",
+      "candidate_label": "Index calculations to specify a submatrix without copying elements"
+    },
+    "created_at": "2026-05-02 00:31:17.045465"
+  },
+  {
+    "id": 65,
+    "node_id": 2,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8649348797035278,
+      "llm_decision": "same",
+      "matched_label": "Divide-and-conquer matrix multiplication by partitioning into submatrices",
+      "candidate_label": "Divide-and-conquer for square-matrix multiplication (recursive partition into four submatrices)"
+    },
+    "created_at": "2026-05-02 00:31:23.811696"
+  },
+  {
+    "id": 66,
+    "node_id": 2,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8584989125236434,
+      "llm_decision": "same",
+      "matched_label": "Matrix partitioning into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Matrix partitioning into A11, A12, A21, A22 and B11, B12, B21, B22"
+    },
+    "created_at": "2026-05-02 00:31:26.129495"
+  },
+  {
+    "id": 67,
+    "node_id": 2,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 2,
+      "from": 3
+    },
+    "created_at": "2026-05-02 00:31:26.165730"
+  },
+  {
+    "id": 68,
+    "node_id": 2,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8525213640127206,
+      "llm_decision": "same",
+      "matched_label": "Divide-and-conquer running-time recurrences",
+      "candidate_label": "Recurrence for running time of divide-and-conquer matrix multiplication"
+    },
+    "created_at": "2026-05-02 00:31:28.238638"
+  }
+]

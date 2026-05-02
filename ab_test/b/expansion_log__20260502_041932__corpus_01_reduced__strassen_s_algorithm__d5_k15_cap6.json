@@ -1,0 +1,1018 @@
+[
+  {
+    "id": 1,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer and recurrences",
+      "nearest_similarity": 0.4961479490199745
+    },
+    "created_at": "2026-05-02 04:15:36.225948"
+  },
+  {
+    "id": 2,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Algorithmic recurrences (base cases and termination)",
+      "nearest_similarity": 0.6130169496183699
+    },
+    "created_at": "2026-05-02 04:15:36.478138"
+  },
+  {
+    "id": 3,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix multiplication and the matrix product C = A\u00b7B",
+      "nearest_similarity": 0.3689726431734921
+    },
+    "created_at": "2026-05-02 04:15:36.795269"
+  },
+  {
+    "id": 4,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Partitioning matrices into four n/2 \u00d7 n/2 submatrices",
+      "nearest_similarity": 0.5375966772619367
+    },
+    "created_at": "2026-05-02 04:15:37.079410"
+  },
+  {
+    "id": 5,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence-solving tools (master method for T(n)=aT(n/b)+f(n))",
+      "nearest_similarity": 0.5964912463647856
+    },
+    "created_at": "2026-05-02 04:15:37.400718"
+  },
+  {
+    "id": 6,
+    "node_id": 6,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8722921779914166,
+      "llm_decision": "same",
+      "matched_label": "Recurrence-solving tools (master method for T(n)=aT(n/b)+f(n))",
+      "candidate_label": "Divide-and-conquer recurrences of the form T(n)=aT(n/b)+f(n)"
+    },
+    "created_at": "2026-05-02 04:15:47.726228"
+  },
+  {
+    "id": 7,
+    "node_id": 6,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 6,
+      "from": 6
+    },
+    "created_at": "2026-05-02 04:15:47.749526"
+  },
+  {
+    "id": 8,
+    "node_id": 6,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8590275252157797,
+      "llm_decision": "same",
+      "matched_label": "Algorithmic recurrences (base cases and termination)",
+      "candidate_label": "Algorithmic recurrences and the base-case assumption"
+    },
+    "created_at": "2026-05-02 04:15:49.910812"
+  },
+  {
+    "id": 9,
+    "node_id": 5,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer matrix-multiplication framework",
+      "nearest_similarity": 0.7675465816207692
+    },
+    "created_at": "2026-05-02 04:15:57.374262"
+  },
+  {
+    "id": 10,
+    "node_id": 5,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8436950072644417,
+      "llm_decision": "same",
+      "matched_label": "Partitioning matrices into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Partitioning n\u00d7n matrices into four n/2\u00d7n/2 submatrices (A11, A12, A21, A22; B11, ...; C11, ...)"
+    },
+    "created_at": "2026-05-02 04:16:00.043251"
+  },
+  {
+    "id": 11,
+    "node_id": 5,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 5,
+      "from": 5
+    },
+    "created_at": "2026-05-02 04:16:00.064709"
+  },
+  {
+    "id": 12,
+    "node_id": 5,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Index calculations for specifying submatrices in place",
+      "nearest_similarity": 0.5735919910079601
+    },
+    "created_at": "2026-05-02 04:16:00.320064"
+  },
+  {
+    "id": 13,
+    "node_id": 8,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9390862193624977,
+      "matched_label": "Index calculations for specifying submatrices in place",
+      "candidate_label": "Index calculations for specifying submatrices within a matrix"
+    },
+    "created_at": "2026-05-02 04:16:03.889787"
+  },
+  {
+    "id": 14,
+    "node_id": 8,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 8,
+      "from": 8
+    },
+    "created_at": "2026-05-02 04:16:03.913064"
+  },
+  {
+    "id": 15,
+    "node_id": 8,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9039587013303972,
+      "llm_decision": "same",
+      "matched_label": "Partitioning matrices into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Partitioning a matrix into four n/2-by-n/2 submatrices"
+    },
+    "created_at": "2026-05-02 04:16:06.759759"
+  },
+  {
+    "id": 16,
+    "node_id": 7,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8644327570593788,
+      "llm_decision": "same",
+      "matched_label": "Partitioning matrices into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Divide step partitions n\u00d7n matrices into four (n/2)\u00d7(n/2) submatrices"
+    },
+    "created_at": "2026-05-02 04:16:14.606972"
+  },
+  {
+    "id": 17,
+    "node_id": 7,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recursive subproblem multiplication for square matrices via MATRIX-MULTIPLY-RECURSIVE",
+      "nearest_similarity": 0.711945195574271
+    },
+    "created_at": "2026-05-02 04:16:14.885378"
+  },
+  {
+    "id": 18,
+    "node_id": 9,
+    "event_type": "dedup_llm_split",
+    "detail": {
+      "similarity": 0.8231945788718872,
+      "llm_decision": "different",
+      "matched_label": "Partitioning matrices into four n/2 \u00d7 n/2 submatrices",
+      "candidate_label": "Divide-and-conquer strategy for square-matrix multiplication by partitioning into n/2 submatrices"
+    },
+    "created_at": "2026-05-02 04:16:27.432566"
+  },
+  {
+    "id": 19,
+    "node_id": 9,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer strategy for square-matrix multiplication by partitioning into n/2 submatrices",
+      "nearest_similarity": 0.8231945788718872
+    },
+    "created_at": "2026-05-02 04:16:27.455128"
+  },
+  {
+    "id": 20,
+    "node_id": 9,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Running-time recurrences for divide-and-conquer algorithms (T(n)=aT(n/b)+f(n))",
+      "nearest_similarity": 0.7932310197661245
+    },
+    "created_at": "2026-05-02 04:16:27.865250"
+  },
+  {
+    "id": 21,
+    "node_id": 9,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8777846283746249,
+      "llm_decision": "same",
+      "matched_label": "Matrix multiplication and the matrix product C = A\u00b7B",
+      "candidate_label": "Matrix multiplication definition C=A*B with entry formula c_ij = sum_k a_ik b_kj"
+    },
+    "created_at": "2026-05-02 04:16:30.209407"
+  },
+  {
+    "id": 22,
+    "node_id": 9,
+    "event_type": "new_node",
+    "detail": {
+      "label": "In-place update form C := C + A*B and initializing C to 0 to compute only A*B",
+      "nearest_similarity": 0.6554956146171221
+    },
+    "created_at": "2026-05-02 04:16:30.531102"
+  },
+  {
+    "id": 23,
+    "node_id": 9,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Partitioning via index calculations (constant-time submatrix specification) versus copying",
+      "nearest_similarity": 0.7552685434551569
+    },
+    "created_at": "2026-05-02 04:16:30.917818"
+  },
+  {
+    "id": 24,
+    "node_id": 12,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8919479191538254,
+      "llm_decision": "same",
+      "matched_label": "Matrix multiplication and the matrix product C = A\u00b7B",
+      "candidate_label": "Matrix multiplication definition C = A\u00b7B and entry formula"
+    },
+    "created_at": "2026-05-02 04:16:40.072492"
+  },
+  {
+    "id": 25,
+    "node_id": 12,
+    "event_type": "new_node",
+    "detail": {
+      "label": "In-place accumulation update for matrix product using three matrices (A, B, C)",
+      "nearest_similarity": 0.7819156241715687
+    },
+    "created_at": "2026-05-02 04:16:40.342464"
+  },
+  {
+    "id": 26,
+    "node_id": 12,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Initializing C to the zero matrix to compute only A\u00b7B",
+      "nearest_similarity": 0.7127670312852228
+    },
+    "created_at": "2026-05-02 04:16:40.614910"
+  },
+  {
+    "id": 27,
+    "node_id": 15,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:16:40.670547"
+  },
+  {
+    "id": 28,
+    "node_id": 14,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:16:40.697941"
+  },
+  {
+    "id": 29,
+    "node_id": 11,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8254718212965741,
+      "llm_decision": "same",
+      "matched_label": "Algorithmic recurrences (base cases and termination)",
+      "candidate_label": "Algorithmic recurrence"
+    },
+    "created_at": "2026-05-02 04:16:47.536978"
+  },
+  {
+    "id": 30,
+    "node_id": 11,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence base case versus recursive case",
+      "nearest_similarity": 0.654757815658221
+    },
+    "created_at": "2026-05-02 04:16:47.842322"
+  },
+  {
+    "id": 31,
+    "node_id": 11,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Conventions for recurrences without explicit base cases",
+      "nearest_similarity": 0.727970492365604
+    },
+    "created_at": "2026-05-02 04:16:48.090991"
+  },
+  {
+    "id": 32,
+    "node_id": 17,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:16:48.146898"
+  },
+  {
+    "id": 33,
+    "node_id": 16,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:16:48.174578"
+  },
+  {
+    "id": 34,
+    "node_id": 10,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8722797561811421,
+      "llm_decision": "same",
+      "matched_label": "Matrix multiplication and the matrix product C = A\u00b7B",
+      "candidate_label": "Matrix multiplication of square matrices"
+    },
+    "created_at": "2026-05-02 04:16:55.224625"
+  },
+  {
+    "id": 35,
+    "node_id": 10,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8831649789107513,
+      "llm_decision": "same",
+      "matched_label": "Divide-and-conquer matrix-multiplication framework",
+      "candidate_label": "Divide-and-conquer strategy for matrix multiplication"
+    },
+    "created_at": "2026-05-02 04:16:59.836623"
+  },
+  {
+    "id": 36,
+    "node_id": 10,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence description of running time for divide-and-conquer algorithms",
+      "nearest_similarity": 0.744497251762915
+    },
+    "created_at": "2026-05-02 04:17:00.216369"
+  },
+  {
+    "id": 37,
+    "node_id": 18,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:17:00.283272"
+  },
+  {
+    "id": 38,
+    "node_id": 4,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix product entry definition (C = A\u00b7B)",
+      "nearest_similarity": 0.7889724836255345
+    },
+    "created_at": "2026-05-02 04:17:03.147530"
+  },
+  {
+    "id": 39,
+    "node_id": 19,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix entry indexing (i, j)",
+      "nearest_similarity": 0.623589430827881
+    },
+    "created_at": "2026-05-02 04:17:08.427789"
+  },
+  {
+    "id": 40,
+    "node_id": 19,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8451003663496388,
+      "llm_decision": "same",
+      "matched_label": "Matrix product entry definition (C = A\u00b7B)",
+      "candidate_label": "Matrix product C = A\u00b7B as a sum over k"
+    },
+    "created_at": "2026-05-02 04:17:11.607626"
+  },
+  {
+    "id": 41,
+    "node_id": 19,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 19,
+      "from": 19
+    },
+    "created_at": "2026-05-02 04:17:11.627222"
+  },
+  {
+    "id": 42,
+    "node_id": 20,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.831164310331135,
+      "llm_decision": "same",
+      "matched_label": "Matrix entry indexing (i, j)",
+      "candidate_label": "Matrix indexing by row and column (i, j)"
+    },
+    "created_at": "2026-05-02 04:17:20.353583"
+  },
+  {
+    "id": 43,
+    "node_id": 20,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 20,
+      "from": 20
+    },
+    "created_at": "2026-05-02 04:17:20.372117"
+  },
+  {
+    "id": 44,
+    "node_id": 20,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix entries as c_ij",
+      "nearest_similarity": 0.7915613493227842
+    },
+    "created_at": "2026-05-02 04:17:20.688424"
+  },
+  {
+    "id": 45,
+    "node_id": 20,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Index ranges 1 to n",
+      "nearest_similarity": 0.745905891612976
+    },
+    "created_at": "2026-05-02 04:17:20.922829"
+  },
+  {
+    "id": 46,
+    "node_id": 21,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8669924728096193,
+      "llm_decision": "same",
+      "matched_label": "Matrix multiplication and the matrix product C = A\u00b7B",
+      "candidate_label": "Matrix product C = A\u00b7B"
+    },
+    "created_at": "2026-05-02 04:17:32.449705"
+  },
+  {
+    "id": 47,
+    "node_id": 21,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8343902481718657,
+      "llm_decision": "same",
+      "matched_label": "Matrix entry indexing (i, j)",
+      "candidate_label": "Indexing of matrix entries (i, j) and entry extraction"
+    },
+    "created_at": "2026-05-02 04:17:35.497383"
+  },
+  {
+    "id": 48,
+    "node_id": 21,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 21,
+      "from": 20
+    },
+    "created_at": "2026-05-02 04:17:35.527920"
+  },
+  {
+    "id": 49,
+    "node_id": 21,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Formula for matrix multiplication entries c_ij = sum_k a_ik b_kj",
+      "nearest_similarity": 0.7387384573144241
+    },
+    "created_at": "2026-05-02 04:17:35.928127"
+  },
+  {
+    "id": 50,
+    "node_id": 23,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:17:35.991437"
+  },
+  {
+    "id": 51,
+    "node_id": 3,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8421942742025297,
+      "llm_decision": "same",
+      "matched_label": "Recurrence base case versus recursive case",
+      "candidate_label": "Base case vs recursive case in a recurrence"
+    },
+    "created_at": "2026-05-02 04:17:42.653362"
+  },
+  {
+    "id": 52,
+    "node_id": 3,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence definition domain and well-definedness",
+      "nearest_similarity": 0.529963040090504
+    },
+    "created_at": "2026-05-02 04:17:42.952717"
+  },
+  {
+    "id": 53,
+    "node_id": 3,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Running time bounds using asymptotic notation",
+      "nearest_similarity": 0.48921040441733843
+    },
+    "created_at": "2026-05-02 04:17:43.225408"
+  },
+  {
+    "id": 54,
+    "node_id": 25,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Big-O notation for expressing upper bounds on solutions",
+      "nearest_similarity": 0.7203304179850497
+    },
+    "created_at": "2026-05-02 04:17:50.467880"
+  },
+  {
+    "id": 55,
+    "node_id": 25,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Theta notation for asymptotically tight bounds",
+      "nearest_similarity": 0.7741955383411576
+    },
+    "created_at": "2026-05-02 04:17:50.737011"
+  },
+  {
+    "id": 56,
+    "node_id": 25,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Omega notation for expressing lower bounds",
+      "nearest_similarity": 0.8025321918223078
+    },
+    "created_at": "2026-05-02 04:17:51.053669"
+  },
+  {
+    "id": 57,
+    "node_id": 25,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Algorithmic recurrences and the need for a base-case threshold n0",
+      "nearest_similarity": 0.8050004067964548
+    },
+    "created_at": "2026-05-02 04:17:51.340455"
+  },
+  {
+    "id": 58,
+    "node_id": 29,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8915830643513469,
+      "llm_decision": "same",
+      "matched_label": "Algorithmic recurrences and the need for a base-case threshold n0",
+      "candidate_label": "Algorithmic recurrence definition (threshold n0 properties)"
+    },
+    "created_at": "2026-05-02 04:17:57.414790"
+  },
+  {
+    "id": 59,
+    "node_id": 29,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 29,
+      "from": 29
+    },
+    "created_at": "2026-05-02 04:17:57.433858"
+  },
+  {
+    "id": 60,
+    "node_id": 29,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8484092642268362,
+      "llm_decision": "same",
+      "matched_label": "Conventions for recurrences without explicit base cases",
+      "candidate_label": "Sufficiently large threshold constant n0 for base cases"
+    },
+    "created_at": "2026-05-02 04:17:59.624788"
+  },
+  {
+    "id": 61,
+    "node_id": 28,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9075489032334323,
+      "llm_decision": "same",
+      "matched_label": "Big-O notation for expressing upper bounds on solutions",
+      "candidate_label": "O-notation for expressing upper bounds"
+    },
+    "created_at": "2026-05-02 04:18:07.645746"
+  },
+  {
+    "id": 62,
+    "node_id": 28,
+    "event_type": "dedup_llm_split",
+    "detail": {
+      "similarity": 0.8333838830725413,
+      "llm_decision": "different",
+      "matched_label": "Omega notation for expressing lower bounds",
+      "candidate_label": "Y-notation for expressing lower bounds"
+    },
+    "created_at": "2026-05-02 04:18:09.531678"
+  },
+  {
+    "id": 63,
+    "node_id": 28,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Y-notation for expressing lower bounds",
+      "nearest_similarity": 0.8333838830725413
+    },
+    "created_at": "2026-05-02 04:18:09.558676"
+  },
+  {
+    "id": 64,
+    "node_id": 28,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrences can be equations or inequalities that give upper or lower bounds on T(n)",
+      "nearest_similarity": 0.6973979961188269
+    },
+    "created_at": "2026-05-02 04:18:09.850808"
+  },
+  {
+    "id": 65,
+    "node_id": 31,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrences can be equations or inequalities",
+      "nearest_similarity": 0.7392708791150993
+    },
+    "created_at": "2026-05-02 04:18:14.382101"
+  },
+  {
+    "id": 66,
+    "node_id": 31,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8584834622550385,
+      "llm_decision": "same",
+      "matched_label": "Big-O notation for expressing upper bounds on solutions",
+      "candidate_label": "Upper bounds from inequality recurrences use O-notation"
+    },
+    "created_at": "2026-05-02 04:18:16.034789"
+  },
+  {
+    "id": 67,
+    "node_id": 31,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Lower bounds from reversed inequality recurrences use \u03a9-notation",
+      "nearest_similarity": 0.7849158904822726
+    },
+    "created_at": "2026-05-02 04:18:16.277678"
+  },
+  {
+    "id": 68,
+    "node_id": 33,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:18:16.332771"
+  },
+  {
+    "id": 69,
+    "node_id": 32,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:18:16.359233"
+  },
+  {
+    "id": 70,
+    "node_id": 30,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9359511987723187,
+      "matched_label": "Big-O notation for expressing upper bounds on solutions",
+      "candidate_label": "Big-O notation for upper bounds"
+    },
+    "created_at": "2026-05-02 04:18:19.570321"
+  },
+  {
+    "id": 71,
+    "node_id": 30,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8410566029669079,
+      "llm_decision": "same",
+      "matched_label": "Recurrences can be equations or inequalities that give upper or lower bounds on T(n)",
+      "candidate_label": "Inequality recurrences (upper vs lower bounds)"
+    },
+    "created_at": "2026-05-02 04:18:21.369179"
+  },
+  {
+    "id": 72,
+    "node_id": 27,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Asymptotic notation O, \u03a9, and \u0398",
+      "nearest_similarity": 0.801086594001474
+    },
+    "created_at": "2026-05-02 04:18:25.707419"
+  },
+  {
+    "id": 73,
+    "node_id": 27,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8475772945120366,
+      "llm_decision": "same",
+      "matched_label": "Conventions for recurrences without explicit base cases",
+      "candidate_label": "Algorithmic recurrence base-case convention"
+    },
+    "created_at": "2026-05-02 04:18:27.684081"
+  },
+  {
+    "id": 74,
+    "node_id": 27,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8650967064008169,
+      "llm_decision": "same",
+      "matched_label": "Algorithmic recurrences and the need for a base-case threshold n0",
+      "candidate_label": "Algorithmic recurrence definition (sufficiently large threshold n0)"
+    },
+    "created_at": "2026-05-02 04:18:31.509237"
+  },
+  {
+    "id": 75,
+    "node_id": 34,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.891978873463109,
+      "llm_decision": "same",
+      "matched_label": "Asymptotic notation O, \u03a9, and \u0398",
+      "candidate_label": "Asymptotic bounds using O-notation, \u03a9-notation, and \u0398-notation"
+    },
+    "created_at": "2026-05-02 04:18:38.098315"
+  },
+  {
+    "id": 76,
+    "node_id": 34,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 34,
+      "from": 34
+    },
+    "created_at": "2026-05-02 04:18:38.118585"
+  },
+  {
+    "id": 77,
+    "node_id": 26,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8401172278578628,
+      "llm_decision": "same",
+      "matched_label": "Theta notation for asymptotically tight bounds",
+      "candidate_label": "Big-Theta notation (\u0398-notation)"
+    },
+    "created_at": "2026-05-02 04:18:43.764938"
+  },
+  {
+    "id": 78,
+    "node_id": 26,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9331154582598258,
+      "matched_label": "Big-O notation for expressing upper bounds on solutions",
+      "candidate_label": "Big-O notation (O-notation)"
+    },
+    "created_at": "2026-05-02 04:18:44.005554"
+  },
+  {
+    "id": 79,
+    "node_id": 26,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 26,
+      "from": 26
+    },
+    "created_at": "2026-05-02 04:18:44.024596"
+  },
+  {
+    "id": 80,
+    "node_id": 26,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8409909442735574,
+      "llm_decision": "same",
+      "matched_label": "Recurrences can be equations or inequalities",
+      "candidate_label": "Recurrences as equations or inequalities defining T(n)"
+    },
+    "created_at": "2026-05-02 04:18:45.955931"
+  },
+  {
+    "id": 81,
+    "node_id": 24,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8474912777889062,
+      "llm_decision": "same",
+      "matched_label": "Recurrences can be equations or inequalities",
+      "candidate_label": "Recurrence definition over integers or reals"
+    },
+    "created_at": "2026-05-02 04:18:51.252473"
+  },
+  {
+    "id": 82,
+    "node_id": 24,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8206730690777241,
+      "llm_decision": "same",
+      "matched_label": "Recurrence base case versus recursive case",
+      "candidate_label": "Base case vs recursive case"
+    },
+    "created_at": "2026-05-02 04:18:52.786388"
+  },
+  {
+    "id": 83,
+    "node_id": 24,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Well-definedness as existence of at least one satisfying function",
+      "nearest_similarity": 0.7899370812213036
+    },
+    "created_at": "2026-05-02 04:18:53.099960"
+  },
+  {
+    "id": 84,
+    "node_id": 2,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8238637882594934,
+      "llm_decision": "same",
+      "matched_label": "Recurrence base case versus recursive case",
+      "candidate_label": "Recurrence definition with recursive and base cases"
+    },
+    "created_at": "2026-05-02 04:19:01.156699"
+  },
+  {
+    "id": 85,
+    "node_id": 2,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Algorithmic recurrences for divide-and-conquer running time",
+      "nearest_similarity": 0.7670649503547095
+    },
+    "created_at": "2026-05-02 04:19:01.446831"
+  },
+  {
+    "id": 86,
+    "node_id": 2,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9457756121904171,
+      "matched_label": "Conventions for recurrences without explicit base cases",
+      "candidate_label": "Conventions: assuming algorithmic recurrences when no explicit base case is stated"
+    },
+    "created_at": "2026-05-02 04:19:01.748437"
+  },
+  {
+    "id": 87,
+    "node_id": 2,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer recurrence structure from splitting into subproblems",
+      "nearest_similarity": 0.7906623454258174
+    },
+    "created_at": "2026-05-02 04:19:01.992026"
+  },
+  {
+    "id": 88,
+    "node_id": 37,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8589710514951083,
+      "llm_decision": "same",
+      "matched_label": "Divide-and-conquer recurrence structure from splitting into subproblems",
+      "candidate_label": "Recurrence structure for divide-and-conquer running time"
+    },
+    "created_at": "2026-05-02 04:19:11.240307"
+  },
+  {
+    "id": 89,
+    "node_id": 37,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 37,
+      "from": 37
+    },
+    "created_at": "2026-05-02 04:19:11.263938"
+  },
+  {
+    "id": 90,
+    "node_id": 37,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8885432882849471,
+      "llm_decision": "same",
+      "matched_label": "Recurrence base case versus recursive case",
+      "candidate_label": "Recurrence basics: recursive case vs base case"
+    },
+    "created_at": "2026-05-02 04:19:13.243822"
+  },
+  {
+    "id": 91,
+    "node_id": 37,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8633450335235175,
+      "llm_decision": "same",
+      "matched_label": "Conventions for recurrences without explicit base cases",
+      "candidate_label": "Algorithmic recurrence convention when base cases are omitted"
+    },
+    "created_at": "2026-05-02 04:19:16.031244"
+  },
+  {
+    "id": 92,
+    "node_id": 36,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Base case and recursive case in a recurrence",
+      "nearest_similarity": 0.8170535203589121
+    },
+    "created_at": "2026-05-02 04:19:19.392275"
+  },
+  {
+    "id": 93,
+    "node_id": 36,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8729884686431222,
+      "llm_decision": "same",
+      "matched_label": "Algorithmic recurrences (base cases and termination)",
+      "candidate_label": "Algorithmic recurrence definition with constants and termination"
+    },
+    "created_at": "2026-05-02 04:19:21.332657"
+  },
+  {
+    "id": 94,
+    "node_id": 38,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8426691516804611,
+      "llm_decision": "same",
+      "matched_label": "Base case and recursive case in a recurrence",
+      "candidate_label": "Recurrence definition with recursive and base cases"
+    },
+    "created_at": "2026-05-02 04:19:30.581836"
+  },
+  {
+    "id": 95,
+    "node_id": 38,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 38,
+      "from": 38
+    },
+    "created_at": "2026-05-02 04:19:30.601111"
+  }
+]

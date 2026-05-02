@@ -1,0 +1,38 @@
+{
+  "run_id": "20260502_003449",
+  "timestamp": "2026-05-02T00:34:49.185056",
+  "corpus": "corpus_01",
+  "target_concept": "Strassen's Algorithm",
+  "config": {
+    "MAX_DEPTH": 4,
+    "K_CHUNKS": 10,
+    "HIGH_THRESHOLD": 0.92,
+    "BORDERLINE_THRESHOLD": 0.82,
+    "PREREQUISITE_CAP": 4,
+    "LLM_MODEL": "gpt-5.4-nano",
+    "EMBEDDING_MODEL": "text-embedding-3-small",
+    "MAX_CHUNK_TOKENS": 1500
+  },
+  "node_count": 30,
+  "edge_count": 41,
+  "back_edge_count": 7,
+  "max_depth_reached": 4,
+  "depth_distribution": {
+    "0": 1,
+    "1": 4,
+    "2": 5,
+    "3": 9,
+    "4": 11
+  },
+  "depth_limited_nodes": 11,
+  "precision_level_1": null,
+  "recall_level_1": null,
+  "precision_level_2": null,
+  "recall_level_2": null,
+  "spurious_node_count": null,
+  "false_merge_count": null,
+  "false_split_count": null,
+  "chunk_link_accuracy": null,
+  "sequence_coherence": null,
+  "notes": ""
+}

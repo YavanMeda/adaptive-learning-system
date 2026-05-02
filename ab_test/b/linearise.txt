@@ -1,0 +1,43 @@
+[WARN] Topological sort incomplete. 11 nodes not reached.
+  Orphaned node IDs: {1, 4, 5, 7, 8, 9, 10, 12, 19, 20, 21}
+
+Pos   Label                                    Depth  Chunks  Prereqs  Dependents
+--------------------------------------------------------------------------------------------------------------------
+1     Recurrence base case versus recursive case 5      3       0        5         
+2     Recurrence description of running time for divide-and-conquer algorithms 5      2       0        1         
+3     Recurrences can be equations or inequalities 5      2       0        3         
+4     Well-definedness as existence of at least one satisfying function 3      2       0        1         
+5     Recurrence definition domain and well-definedness 2      2       3        1         
+6     Base case and recursive case in a recurrence 3      2       0        1         
+7     Conventions for recurrences without explicit base cases 5      3       0        5         
+8     Divide-and-conquer recurrence structure from splitting into subproblems 2      5       2        1         
+9     Algorithmic recurrences and the need for a base-case threshold n0 3      4       1        2         
+10    Lower bounds from reversed inequality recurrences use Ω-notation 5      1       0        1         
+11    Asymptotic notation O, Ω, and Θ          4      2       0        1         
+12    Theta notation for asymptotically tight bounds 3      4       3        2         
+13    Big-O notation for expressing upper bounds on solutions 3      1       2        4         
+14    Recurrences can be equations or inequalities that give upper or lower bounds on T(n) 4      3       3        2         
+15    Y-notation for expressing lower bounds   4      1       2        1         
+16    Omega notation for expressing lower bounds 3      2       3        1         
+17    Running time bounds using asymptotic notation 2      4       4        1         
+18    Algorithmic recurrences (base cases and termination) 1      3       3        4         
+19    Running-time recurrences for divide-and-conquer algorithms (T(n)=aT(n/b)+f(n)) 4      5       3        1         
+20    Algorithmic recurrences for divide-and-conquer running time 2      2       2        1         
+21    Divide-and-conquer and recurrences       1      4       4        1         
+22    Recurrence-solving tools (master method for T(n)=aT(n/b)+f(n)) 1      3       1        1         
+23    In-place accumulation update for matrix product using three matrices (A, B, C) 5      1       0        1         
+24    Initializing C to the zero matrix to compute only A·B 5      1       0        1         
+25    Index ranges 1 to n                      4      1       0        1         
+26    Formula for matrix multiplication entries c_ij = sum_k a_ik b_kj 5      1       0        1         
+27    Partitioning via index calculations (constant-time submatrix specification) versus copying 4      2       0        1         
+28    Divide-and-conquer matrix-multiplication framework 2      4       2        2         
+29    Recursive subproblem multiplication for square matrices via MATRIX-MULTIPLY-RECURSIVE 3      6       5        1         
+30    Divide-and-conquer strategy for square-matrix multiplication by partitioning into n/2 submatrices 4      4       3        1         
+31    Matrix multiplication and the matrix product C = A·B 1      3       1        5         
+32    Partitioning matrices into four n/2 × n/2 submatrices 1      5       2        3         
+33    In-place update form C := C + A*B and initializing C to 0 to compute only A*B 4      3       3        1         
+34    Matrix product entry definition (C = A·B) 2      2       1        1         
+35    Matrix entry indexing (i, j)             3      1       2        1         
+36    Matrix entries as c_ij                   4      3       2        1         
+37    Index calculations for specifying submatrices in place 2      2       1        1         
+38    Strassen's Algorithm                     0      1       5        0         

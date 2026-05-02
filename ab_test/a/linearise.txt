@@ -1,0 +1,39 @@
+[WARN] Topological sort incomplete. 5 nodes not reached.
+  Orphaned node IDs: {1, 3, 4, 7, 27}
+
+Pos   Label                                    Depth  Chunks  Prereqs  Dependents
+--------------------------------------------------------------------------------------------------------------------
+1     recurrence definition with base case vs recursive case 2      4       0        5         
+2     Recurrence as an equation or inequality using the function itself 5      1       0        3         
+3     Recurrence cases depend on the argument (one or more cases) 5      1       0        1         
+4     General form of a recurrence with recursive and non-recursive cases 4      2       3        2         
+5     divide-and-conquer recurrence structure with base case and recursive case 3      2       1        1         
+6     Base case for a recurrence               4      2       1        2         
+7     Recursive case in a recurrence           4      2       2        1         
+8     Recurrences and their cases (recursive vs base case) 5      1       0        2         
+9     Divide-and-conquer recurrences           5      1       0        1         
+10    Algorithmic recurrence                   4      2       2        4         
+11    algorithmic recurrence for divide-and-conquer running time 3      4       3        1         
+12    Recurrence definition constrained to defined arguments 5      2       0        1         
+13    Sufficiently large threshold constant n0 4      4       2        1         
+14    algorithmic recurrence properties for sufficiently large threshold constants 3      3       2        1         
+15    Algorithmic recurrence property that every recursion path terminates in a defined base case 4      2       2        2         
+16    Divide-and-conquer recurrences for running time 1      4       2        1         
+17    termination of every recursion path in a defined base case 3      2       2        1         
+18    divide-and-conquer recurrences (algorithmic recurrences) 2      3       4        1         
+19    Submatrices within an n×n matrix (n/2 × n/2 submatrices) 5      3       0        2         
+20    n×n square matrices                      5      2       0        1         
+21    Matrix entries c_ij as functions of i and j 5      1       0        1         
+22    Indexing convention i,j,k ∈ {1,2,...,n}  5      1       0        1         
+23    Matrix product C = A * B                 4      2       3        1         
+24    Matrix multiplication entry definition c_ij = sum_{k=1}^n a_ik b_kj 3      3       1        1         
+25    Partitioning a matrix into submatrices using index calculations 4      2       1        2         
+26    Constant-time computation based on constant-size location information 4      2       1        1         
+27    partitioning cost via index calculations is Θ(1) 3      3       2        1         
+28    Index calculations for specifying a submatrix within a matrix 3      3       0        1         
+29    Index-based matrix partitioning into submatrices (constant-size arithmetic on locations) 2      2       2        1         
+30    MATRIX-MULTIPLY-RECURSIVE recurrence T(n)=8T(n/2)+Θ(1) 1      4       4        2         
+31    Matrix multiplication via submatrix partitioning into four n/2 by n/2 blocks 1      4       2        3         
+32    Block equations for matrix multiplication C = A·B 2      3       2        1         
+33    running-time recurrence from recursive divide-and-conquer matrix multiplication 2      2       4        1         
+34    Strassen's Algorithm                     0      3       3        0         

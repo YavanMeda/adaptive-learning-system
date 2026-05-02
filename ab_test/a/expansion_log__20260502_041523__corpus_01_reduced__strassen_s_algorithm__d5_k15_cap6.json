@@ -1,0 +1,715 @@
+[
+  {
+    "id": 1,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer recurrences for running time",
+      "nearest_similarity": 0.43979339085075675
+    },
+    "created_at": "2026-05-02 04:12:35.861786"
+  },
+  {
+    "id": 2,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix multiplication via submatrix partitioning into four n/2 by n/2 blocks",
+      "nearest_similarity": 0.5273734320062488
+    },
+    "created_at": "2026-05-02 04:12:36.189154"
+  },
+  {
+    "id": 3,
+    "node_id": 1,
+    "event_type": "new_node",
+    "detail": {
+      "label": "MATRIX-MULTIPLY-RECURSIVE recurrence T(n)=8T(n/2)+\u0398(1)",
+      "nearest_similarity": 0.5606868425549496
+    },
+    "created_at": "2026-05-02 04:12:36.494879"
+  },
+  {
+    "id": 4,
+    "node_id": 4,
+    "event_type": "new_node",
+    "detail": {
+      "label": "divide-and-conquer recurrences (algorithmic recurrences)",
+      "nearest_similarity": 0.6962222087093936
+    },
+    "created_at": "2026-05-02 04:12:44.705697"
+  },
+  {
+    "id": 5,
+    "node_id": 4,
+    "event_type": "new_node",
+    "detail": {
+      "label": "recurrence definition with base case vs recursive case",
+      "nearest_similarity": 0.6314207336069615
+    },
+    "created_at": "2026-05-02 04:12:45.018304"
+  },
+  {
+    "id": 6,
+    "node_id": 4,
+    "event_type": "new_node",
+    "detail": {
+      "label": "running-time recurrence from recursive divide-and-conquer matrix multiplication",
+      "nearest_similarity": 0.6757858412451198
+    },
+    "created_at": "2026-05-02 04:12:45.370541"
+  },
+  {
+    "id": 7,
+    "node_id": 4,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8458631435766593,
+      "llm_decision": "same",
+      "matched_label": "Matrix multiplication via submatrix partitioning into four n/2 by n/2 blocks",
+      "candidate_label": "matrix partitioning into four n/2 by n/2 submatrices"
+    },
+    "created_at": "2026-05-02 04:12:52.928730"
+  },
+  {
+    "id": 8,
+    "node_id": 7,
+    "event_type": "new_node",
+    "detail": {
+      "label": "algorithmic recurrence for divide-and-conquer running time",
+      "nearest_similarity": 0.7900153530395808
+    },
+    "created_at": "2026-05-02 04:12:59.295800"
+  },
+  {
+    "id": 9,
+    "node_id": 7,
+    "event_type": "new_node",
+    "detail": {
+      "label": "divide-and-conquer recurrence structure with base case and recursive case",
+      "nearest_similarity": 0.772820738948466
+    },
+    "created_at": "2026-05-02 04:12:59.842204"
+  },
+  {
+    "id": 10,
+    "node_id": 7,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.834576287465178,
+      "llm_decision": "same",
+      "matched_label": "MATRIX-MULTIPLY-RECURSIVE recurrence T(n)=8T(n/2)+\u0398(1)",
+      "candidate_label": "recurrence for MATRIX-MULTIPLY-RECURSIVE running time"
+    },
+    "created_at": "2026-05-02 04:13:02.601842"
+  },
+  {
+    "id": 11,
+    "node_id": 7,
+    "event_type": "new_node",
+    "detail": {
+      "label": "partitioning cost via index calculations is \u0398(1)",
+      "nearest_similarity": 0.5379701096228571
+    },
+    "created_at": "2026-05-02 04:13:02.890942"
+  },
+  {
+    "id": 12,
+    "node_id": 10,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Partitioning a matrix into submatrices using index calculations",
+      "nearest_similarity": 0.7553198605743142
+    },
+    "created_at": "2026-05-02 04:13:06.566283"
+  },
+  {
+    "id": 13,
+    "node_id": 10,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Constant-time computation based on constant-size location information",
+      "nearest_similarity": 0.6498303850018157
+    },
+    "created_at": "2026-05-02 04:13:06.843793"
+  },
+  {
+    "id": 14,
+    "node_id": 12,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9015264183012395,
+      "llm_decision": "same",
+      "matched_label": "Partitioning a matrix into submatrices using index calculations",
+      "candidate_label": "Index calculations for matrix partitioning"
+    },
+    "created_at": "2026-05-02 04:13:13.474652"
+  },
+  {
+    "id": 15,
+    "node_id": 11,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9009931454833605,
+      "llm_decision": "same",
+      "matched_label": "Partitioning a matrix into submatrices using index calculations",
+      "candidate_label": "Index calculations for matrix partitioning"
+    },
+    "created_at": "2026-05-02 04:13:19.958728"
+  },
+  {
+    "id": 16,
+    "node_id": 11,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 11,
+      "from": 11
+    },
+    "created_at": "2026-05-02 04:13:19.977988"
+  },
+  {
+    "id": 17,
+    "node_id": 11,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Submatrices within an n\u00d7n matrix (n/2 \u00d7 n/2 submatrices)",
+      "nearest_similarity": 0.7831958411045248
+    },
+    "created_at": "2026-05-02 04:13:20.237478"
+  },
+  {
+    "id": 18,
+    "node_id": 13,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:13:20.300880"
+  },
+  {
+    "id": 19,
+    "node_id": 9,
+    "event_type": "new_node",
+    "detail": {
+      "label": "General form of a recurrence with recursive and non-recursive cases",
+      "nearest_similarity": 0.703230092958313
+    },
+    "created_at": "2026-05-02 04:13:22.848084"
+  },
+  {
+    "id": 20,
+    "node_id": 14,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence as an equation or inequality using the function itself",
+      "nearest_similarity": 0.7921082878745073
+    },
+    "created_at": "2026-05-02 04:13:26.864786"
+  },
+  {
+    "id": 21,
+    "node_id": 14,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8419878036066502,
+      "llm_decision": "same",
+      "matched_label": "recurrence definition with base case vs recursive case",
+      "candidate_label": "Base case vs recursive case in a recurrence"
+    },
+    "created_at": "2026-05-02 04:13:29.527265"
+  },
+  {
+    "id": 22,
+    "node_id": 14,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence cases depend on the argument (one or more cases)",
+      "nearest_similarity": 0.6668676192235695
+    },
+    "created_at": "2026-05-02 04:13:29.835722"
+  },
+  {
+    "id": 23,
+    "node_id": 16,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:13:29.892276"
+  },
+  {
+    "id": 24,
+    "node_id": 15,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:13:29.919775"
+  },
+  {
+    "id": 25,
+    "node_id": 8,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Algorithmic recurrence",
+      "nearest_similarity": 0.7675540510767095
+    },
+    "created_at": "2026-05-02 04:13:33.741077"
+  },
+  {
+    "id": 26,
+    "node_id": 8,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Base case for a recurrence",
+      "nearest_similarity": 0.7847230174231635
+    },
+    "created_at": "2026-05-02 04:13:34.027503"
+  },
+  {
+    "id": 27,
+    "node_id": 8,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recursive case in a recurrence",
+      "nearest_similarity": 0.7888249272256198
+    },
+    "created_at": "2026-05-02 04:13:34.317155"
+  },
+  {
+    "id": 28,
+    "node_id": 19,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9031987870957279,
+      "llm_decision": "same",
+      "matched_label": "Recurrence as an equation or inequality using the function itself",
+      "candidate_label": "recurrence"
+    },
+    "created_at": "2026-05-02 04:13:39.753444"
+  },
+  {
+    "id": 29,
+    "node_id": 19,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9464279455361663,
+      "matched_label": "Base case for a recurrence",
+      "candidate_label": "base case"
+    },
+    "created_at": "2026-05-02 04:13:40.056409"
+  },
+  {
+    "id": 30,
+    "node_id": 18,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.848347495260228,
+      "llm_decision": "same",
+      "matched_label": "General form of a recurrence with recursive and non-recursive cases",
+      "candidate_label": "Recurrence (definition of recursive vs base cases)"
+    },
+    "created_at": "2026-05-02 04:13:46.852172"
+  },
+  {
+    "id": 31,
+    "node_id": 17,
+    "event_type": "dedup_llm_split",
+    "detail": {
+      "similarity": 0.8521414037680274,
+      "llm_decision": "different",
+      "matched_label": "General form of a recurrence with recursive and non-recursive cases",
+      "candidate_label": "Recurrences and their cases (recursive vs base case)"
+    },
+    "created_at": "2026-05-02 04:13:52.498275"
+  },
+  {
+    "id": 32,
+    "node_id": 17,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrences and their cases (recursive vs base case)",
+      "nearest_similarity": 0.8521414037680274
+    },
+    "created_at": "2026-05-02 04:13:52.525224"
+  },
+  {
+    "id": 33,
+    "node_id": 17,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Divide-and-conquer recurrences",
+      "nearest_similarity": 0.8151897425066944
+    },
+    "created_at": "2026-05-02 04:13:52.875869"
+  },
+  {
+    "id": 34,
+    "node_id": 21,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:13:52.935013"
+  },
+  {
+    "id": 35,
+    "node_id": 20,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:13:52.962540"
+  },
+  {
+    "id": 36,
+    "node_id": 6,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9032970921518046,
+      "llm_decision": "same",
+      "matched_label": "recurrence definition with base case vs recursive case",
+      "candidate_label": "recurrence cases (recursive case vs base case)"
+    },
+    "created_at": "2026-05-02 04:13:57.305194"
+  },
+  {
+    "id": 37,
+    "node_id": 6,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 6,
+      "from": 6
+    },
+    "created_at": "2026-05-02 04:13:57.327733"
+  },
+  {
+    "id": 38,
+    "node_id": 5,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9081173904576858,
+      "llm_decision": "same",
+      "matched_label": "Recurrence as an equation or inequality using the function itself",
+      "candidate_label": "recurrence (equation or inequality) over the integers or reals"
+    },
+    "created_at": "2026-05-02 04:14:05.285076"
+  },
+  {
+    "id": 39,
+    "node_id": 5,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9002768844574026,
+      "llm_decision": "same",
+      "matched_label": "recurrence definition with base case vs recursive case",
+      "candidate_label": "base case vs recursive case in a recurrence"
+    },
+    "created_at": "2026-05-02 04:14:07.632062"
+  },
+  {
+    "id": 40,
+    "node_id": 5,
+    "event_type": "new_node",
+    "detail": {
+      "label": "termination of every recursion path in a defined base case",
+      "nearest_similarity": 0.7606738235580631
+    },
+    "created_at": "2026-05-02 04:14:08.037250"
+  },
+  {
+    "id": 41,
+    "node_id": 5,
+    "event_type": "dedup_llm_split",
+    "detail": {
+      "similarity": 0.8560246320391287,
+      "llm_decision": "different",
+      "matched_label": "Algorithmic recurrence",
+      "candidate_label": "algorithmic recurrence properties for sufficiently large threshold constants"
+    },
+    "created_at": "2026-05-02 04:14:11.818661"
+  },
+  {
+    "id": 42,
+    "node_id": 5,
+    "event_type": "new_node",
+    "detail": {
+      "label": "algorithmic recurrence properties for sufficiently large threshold constants",
+      "nearest_similarity": 0.8560246320391287
+    },
+    "created_at": "2026-05-02 04:14:11.848209"
+  },
+  {
+    "id": 43,
+    "node_id": 23,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.9053384434437955,
+      "llm_decision": "same",
+      "matched_label": "Algorithmic recurrence",
+      "candidate_label": "Algorithmic recurrences definition"
+    },
+    "created_at": "2026-05-02 04:14:20.120172"
+  },
+  {
+    "id": 44,
+    "node_id": 23,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Sufficiently large threshold constant n0",
+      "nearest_similarity": 0.7449701937814783
+    },
+    "created_at": "2026-05-02 04:14:20.443262"
+  },
+  {
+    "id": 45,
+    "node_id": 24,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.93828838391429,
+      "matched_label": "Algorithmic recurrence",
+      "candidate_label": "Algorithmic recurrence"
+    },
+    "created_at": "2026-05-02 04:14:24.195231"
+  },
+  {
+    "id": 46,
+    "node_id": 24,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Recurrence definition constrained to defined arguments",
+      "nearest_similarity": 0.7165832635649354
+    },
+    "created_at": "2026-05-02 04:14:24.503771"
+  },
+  {
+    "id": 47,
+    "node_id": 25,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:14:24.568545"
+  },
+  {
+    "id": 48,
+    "node_id": 22,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.839183922136427,
+      "llm_decision": "same",
+      "matched_label": "recurrence definition with base case vs recursive case",
+      "candidate_label": "Recursive case and base case in a recurrence"
+    },
+    "created_at": "2026-05-02 04:14:30.169058"
+  },
+  {
+    "id": 49,
+    "node_id": 22,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Algorithmic recurrence property that every recursion path terminates in a defined base case",
+      "nearest_similarity": 0.8019951912374433
+    },
+    "created_at": "2026-05-02 04:14:30.883180"
+  },
+  {
+    "id": 50,
+    "node_id": 26,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9420183720861777,
+      "matched_label": "Algorithmic recurrence",
+      "candidate_label": "Algorithmic recurrence"
+    },
+    "created_at": "2026-05-02 04:14:34.502368"
+  },
+  {
+    "id": 51,
+    "node_id": 26,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.852265760627611,
+      "llm_decision": "same",
+      "matched_label": "recurrence definition with base case vs recursive case",
+      "candidate_label": "Recurrence with base cases and recursive cases"
+    },
+    "created_at": "2026-05-02 04:14:36.322233"
+  },
+  {
+    "id": 52,
+    "node_id": 3,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.885751549962629,
+      "llm_decision": "same",
+      "matched_label": "Matrix multiplication via submatrix partitioning into four n/2 by n/2 blocks",
+      "candidate_label": "Divide-and-conquer matrix multiplication that partitions n\u00d7n matrices into four n/2\u00d7n/2 submatrices"
+    },
+    "created_at": "2026-05-02 04:14:44.066983"
+  },
+  {
+    "id": 53,
+    "node_id": 3,
+    "event_type": "back_edge",
+    "detail": {
+      "to": 3,
+      "from": 3
+    },
+    "created_at": "2026-05-02 04:14:44.085721"
+  },
+  {
+    "id": 54,
+    "node_id": 3,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Block equations for matrix multiplication C = A\u00b7B",
+      "nearest_similarity": 0.7474618469775265
+    },
+    "created_at": "2026-05-02 04:14:44.638956"
+  },
+  {
+    "id": 55,
+    "node_id": 3,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Index-based matrix partitioning into submatrices (constant-size arithmetic on locations)",
+      "nearest_similarity": 0.7672656169082092
+    },
+    "created_at": "2026-05-02 04:14:44.884976"
+  },
+  {
+    "id": 56,
+    "node_id": 28,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8270239915525471,
+      "llm_decision": "same",
+      "matched_label": "Submatrices within an n\u00d7n matrix (n/2 \u00d7 n/2 submatrices)",
+      "candidate_label": "Divide-and-conquer matrix-multiplication setting with partitioning into four n/2 \u00d7 n/2 submatrices"
+    },
+    "created_at": "2026-05-02 04:14:54.628299"
+  },
+  {
+    "id": 57,
+    "node_id": 28,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Index calculations for specifying a submatrix within a matrix",
+      "nearest_similarity": 0.7705694337611549
+    },
+    "created_at": "2026-05-02 04:14:54.981821"
+  },
+  {
+    "id": 58,
+    "node_id": 27,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8845452918536234,
+      "llm_decision": "same",
+      "matched_label": "Matrix multiplication via submatrix partitioning into four n/2 by n/2 blocks",
+      "candidate_label": "Divide-and-conquer matrix multiplication with partitioning into four n/2 \u00d7 n/2 submatrices"
+    },
+    "created_at": "2026-05-02 04:15:04.548221"
+  },
+  {
+    "id": 59,
+    "node_id": 27,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix multiplication entry definition c_ij = sum_{k=1}^n a_ik b_kj",
+      "nearest_similarity": 0.6588099117718033
+    },
+    "created_at": "2026-05-02 04:15:04.814984"
+  },
+  {
+    "id": 60,
+    "node_id": 30,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix product C = A * B",
+      "nearest_similarity": 0.719683499198417
+    },
+    "created_at": "2026-05-02 04:15:07.820071"
+  },
+  {
+    "id": 61,
+    "node_id": 31,
+    "event_type": "new_node",
+    "detail": {
+      "label": "n\u00d7n square matrices",
+      "nearest_similarity": 0.6680251546071188
+    },
+    "created_at": "2026-05-02 04:15:12.601414"
+  },
+  {
+    "id": 62,
+    "node_id": 31,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Matrix entries c_ij as functions of i and j",
+      "nearest_similarity": 0.7469623381313187
+    },
+    "created_at": "2026-05-02 04:15:12.886132"
+  },
+  {
+    "id": 63,
+    "node_id": 31,
+    "event_type": "new_node",
+    "detail": {
+      "label": "Indexing convention i,j,k \u2208 {1,2,...,n}",
+      "nearest_similarity": 0.7529564796672908
+    },
+    "created_at": "2026-05-02 04:15:13.178050"
+  },
+  {
+    "id": 64,
+    "node_id": 34,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:15:13.235281"
+  },
+  {
+    "id": 65,
+    "node_id": 33,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:15:13.262899"
+  },
+  {
+    "id": 66,
+    "node_id": 32,
+    "event_type": "depth_limited",
+    "detail": {
+      "depth": 5
+    },
+    "created_at": "2026-05-02 04:15:13.291042"
+  },
+  {
+    "id": 67,
+    "node_id": 2,
+    "event_type": "dedup_auto_merge",
+    "detail": {
+      "similarity": 0.9278799999130736,
+      "matched_label": "Recurrences and their cases (recursive vs base case)",
+      "candidate_label": "Recurrences (general form with base case and recursive case)"
+    },
+    "created_at": "2026-05-02 04:15:17.422641"
+  },
+  {
+    "id": 68,
+    "node_id": 2,
+    "event_type": "dedup_llm_merge",
+    "detail": {
+      "similarity": 0.8653844271537504,
+      "llm_decision": "same",
+      "matched_label": "Algorithmic recurrence property that every recursion path terminates in a defined base case",
+      "candidate_label": "Algorithmic recurrences and base-case termination"
+    },
+    "created_at": "2026-05-02 04:15:21.547373"
+  }
+]
